@@ -3,4 +3,4 @@
  * Name the column Actor Name, and sort the results alphabetically.
  */
 
-select first_name || ' ' || last_name as ACTOR_NAME from actor ORDER BY first_name, last_name;
+select first_name || ' ' || last_name as "Actor Name" from actor ORDER BY "Actor Name";
